@@ -1,0 +1,54 @@
+@keyframes bounce {
+    0%{
+        transform: translateY(-.6rem)
+    }
+
+    30%{
+        transform: translateY(.6rem)
+    }
+
+    60%{
+        transform: translateY(-.3rem);
+    }
+
+
+   90%{
+    transform: translateY(.3rem);
+
+   }
+   
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.bounce{
+    &:hover{
+        animation: bounce 1.2s;
+
+    }
+}
+
+
+
+@keyframes landing-up{
+    0%{
+        transform: translateY(-100vh)
+    }
+    100%{
+        transform: translateY(0vh)
+    }
+}
+
+@keyframes fadeIn{
+    0%{
+        opacity: 0.2;
+    }
+    100%{
+    opacity: 1;
+    }
+}
+
+@keyframes openMenu{
+    
+}

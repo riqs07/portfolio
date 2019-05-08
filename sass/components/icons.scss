@@ -1,0 +1,33 @@
+.icon{
+
+    
+   
+    &-resume{
+        
+        color:$purple;
+        
+        font-size: 3.5rem;
+        &:hover{
+            @include blue-gradient();
+            transition: all .5s ease-in;
+        }
+    
+    }
+
+    &-small{
+        font-size: 2rem;
+        color:$blue;
+
+    }
+    &-large{
+        font-size: 5rem;
+        color: $blue-d1;
+       
+
+    }
+
+    &-info-card{
+        margin-right: 15px;
+        padding: 5px 0px;
+    }
+}

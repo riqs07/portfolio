@@ -1,0 +1,13 @@
+
+@mixin blue-gradient() {
+    background-image: linear-gradient(to bottom right,$blue-l2,$blue-intense);
+    background-clip: text;
+    color: transparent;
+    
+}
+
+@mixin colorFade($bg,$text){
+    background-color: darken($bg,10%);
+    color: darken($text,10%);
+}
+
