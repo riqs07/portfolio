@@ -6,14 +6,12 @@
     }
     
     &-contact{
-        height: 50vh;
         width: 100vw;
         
       background-color: $red;
     }
 
     &-about{
-        height: 50vh;
         width: 100vw;
         background-color: $blue;
 
@@ -28,4 +26,17 @@
         z-index: 1;
     }
     
+}
+
+.foo{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid hsl(212, 12%, 72%);
+
+    position: absolute;
+    left: 20%;
+    top: 90%;
+
 }

@@ -314,12 +314,10 @@ body {
   background-color: #eee; }
 
 .section-contact {
-  height: 50vh;
   width: 100vw;
   background-color: #c63f65; }
 
 .section-about {
-  height: 50vh;
   width: 100vw;
   background-color: #408abf; }
 
@@ -329,6 +327,16 @@ body {
   height: 125vh;
   width: 100vw;
   z-index: 1; }
+
+.foo {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #afb7c0;
+  position: absolute;
+  left: 20%;
+  top: 90%; }
 
 .footer {
   position: relative;
