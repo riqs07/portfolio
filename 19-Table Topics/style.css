@@ -1,0 +1,73 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color:hsl(160,30%,30%)
+}
+
+strong{
+    font-weight: 700;
+}
+
+
+.settings-card{
+    padding: 25px;
+}
+
+.display-card{
+    padding-bottom: 5px;
+}
+
+.settings-btn{
+    width: 100%;
+    background-color: hsl(160,30%,60%);
+}
+
+.menu-btn{
+    width:100%;
+    margin-bottom: 10px;
+    background-color: hsl(160,30%,60%);
+}
+
+.ctrl-btn{
+    margin: 5px;
+    background-color: hsl(160,30%,60%)
+}
+.menu-btn:hover {
+    background-color: hsl(160,30%,40%)
+}
+.ctrl-btn:hover {
+    background-color: hsl(160,30%,40%)
+}
+.settings-btn:hover {
+    background-color: hsl(160,30%,40%)
+}
+
+#close-list-BTN{
+    margin: 10px;
+}
+
+#timer{
+   font-size: 5em;
+   margin: 10px;
+}
+
+#question{
+    font-size: 2em;
+}
+
+#WOD{
+    font-size: 1.25em;
+    margin-bottom: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+#timerGo{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: blue;
+}
+
+
+.toast-size{
+    font-size: 1.5em;
+}
+

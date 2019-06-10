@@ -1,0 +1,17 @@
+
+
+
+
+tidy up rules state
+
+make home state more than just 'table topics'
+
+figure out why e is undefined on dataManager 90
+
+
+maybe add pagination to arryays
+
+decide on final colors i like the teal 
+
+DONE 
+ 

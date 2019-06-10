@@ -98,26 +98,34 @@
 
     .name{
         color: $blue;
-        font-size: 2rem;
+        font-size: 2.5rem;
         font-weight: 700;
     }
 
     .title{
         color: $red;
-        font-size: 1.5rem;
+        font-size: 1.25rem;
+        padding-left: 2vw;
     }
 
     .email{
         color: $blue-d2;
         margin-top: 10px;
         text-decoration: none;
+        display: block;
 
     }
     .number{
         color: $blue-d2;
         letter-spacing: .075rem;
         text-decoration: none;
+        display: block;
 
+    }
+    .github{
+        color: $blue-d2;
+        text-decoration: none;
+        display: block;
     }
 }
 
