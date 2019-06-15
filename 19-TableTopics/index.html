@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+    crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Table Topics</title>
+</head>
+<body>
+  
+<div class="container">
+    
+<div class="card background game-card ">
+    <div class="center">
+            <div class="card-content">
+         
+                <div id="main-display" class="card-title ">Table Topics</div>
+            <div id="timer" class=""></div>
+
+            <h3 id ="countdown"></h3>
+
+            <div id="WOD"></div>
+
+          
+           <div class="game-controls">
+            <button id="pause" class="btn ctrl-btn"><i class="fas fa-pause"></i></button>
+            <button id="stop" class="btn ctrl-btn"><i class="fas fa-stop"></i></button>
+            <button id="resume" class="btn ctrl-btn"><i class="fas fa-play"></i></button>
+
+            <button id="reset" class="btn ctrl-btn"><i class="fas fa-redo"></i></button>
+           </div>
+    
+    </div>
+    </div>
+    <div class="progress" id = "progressBar">
+        <div class="indeterminate"></div>
+    </div>
+    </div>
+
+    <button id="play" class="btn menu-btn">Play</button>
+    <button id="settings" class="btn menu-btn">Settings</button>
+    <button id="stopGameDuringCD" class="btn menu-btn">Stop Countdown</button>
+
+
+    <div class="card settings-card">    
+       
+    <h3 class = "center grey-text text-darken-2"><i class="fas fa-tools"></i></h3>
+
+              <div class="row">
+                  <div class="col s6 m3 ">
+                        <button class = " settings-btn btn waves-effect waves-light"  onclick="showWODArray()">View Words</button>
+                  </div>
+                  <div class="col s6 m3">
+                    <button class=" settings-btn btn blue waves-effect waves-light" onclick="addNewWODState()"><i class="fas fa-plus"></i> Add Word</button>
+
+                  </div>
+                  <div class="col s6 m3 ">
+                      <button class = " settings-btn btn waves-effect waves-light" onclick="showQuestionsArray()" >View Questions</button>
+                    </div>
+                    <div class="col s6 m3">
+                        <button class="settings-btn btn blue waves-effect waves-light" onclick="addNewQuestionState()"><i class="fas fa-plus"></i> Add Question</button>
+
+                    </div>
+                 
+              </div>
+
+              <div class="row">
+                  <div class="col s6">
+                     <button class="settings-btn btn waves-effect waves-light" onclick="showRulesState()">Rules</button>
+
+                  </div>
+                  <div class="col s6">
+                    <button class="settings-btn btn waves-effect waves-light" onclick="clearStorage()">Clear Storage</button>
+                  </div>
+              </div>
+              <button class="settings-btn btn " onclick="closeSettings()">Done</button>
+
+
+          </div>
+
+
+
+
+
+          <div class="card display-card">
+<div class="right-align">
+    <button id="close-list-BTN" class="btn red waves-effect waves-light" onclick="closeDisplayCard()">
+        <i class="fas fa-times"></i>
+    </button>
+
+</div>
+                        <ul id="edit-question-list" class="collection">
+                          
+                            </ul>
+                            
+                </div>
+    
+              
+    
+            </div>
+ 
+
+
+
+ 
+
+ 
+     
+
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+   
+    <script src="data.js"></script>
+    <script src="storage.js"></script>
+    <script src="ui.js"></script>
+    <script src="dataManager.js"></script>
+    <script src="gameManager.js"></script>
+    <script src="stateManager.js"></script>
+   
+   
+    <script src="app.js"></script>
+</body>
+</html>
