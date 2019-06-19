@@ -10,7 +10,6 @@
   "author": "TJS",
   "license": "ISC",
   "dependencies": {
-    "animejs": "^3.0.1",
     "node-sass": "^4.11.0"
   }
 }

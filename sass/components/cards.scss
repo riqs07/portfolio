@@ -1,57 +1,54 @@
 
 .card{
-
-    
     border-radius: 5px;
     
     padding: 20px 30px;
     background-color: white;
     box-shadow: $shadow-p4-1;
     box-shadow: $shadow-p4-2;
+
+    
+    &--title{
+        font-size: 4rem;
+        color: $blue-d1;
+    }
+    &--body{
+        color: $blue-text-dark;
+        font-size: 1.5rem;
+
+
+        .highlight{
+            font-weight: 600;
+            text-decoration: none;
+        }
+
+        .red{
+            color:$red;
+            &:hover{
+                color: $red-l2;
+            }
+        }
+        .green{
+            color:hsl(120, 47%, 45%);
+            &:hover{
+                color: hsl(120, 47%, 65%);
+            }
+        }
+
+        .blue{
+            color:$blue ;
+            &:hover{
+                color: $blue-l2;
+            }
+        }
+    }
+    &--text{
+        margin: 10px 0px;
+    }
     &:not(:last-child){
         margin-bottom: 40px;
     }
 
-    &__project{
-
-        &:not(:last-child){
-            margin-bottom: 40px;
-        }
-       
-
-
-        &--title{
-            font-size: 4rem;
-            color: $blue-d1;
-            margin-bottom: 30px;
-
-
-        }
-        &--body{
-            color: $blue-text-dark;
-            font-size: 1.5rem;
-
-
-            .highlight{
-                font-weight: 600;
-                text-decoration: none;
-            }
-            .red{
-                color:$red;
-                &:hover{
-                    color: $red-d2;
-                }
-            }
-            .blue{
-                color:$blue ;
-                &:hover{
-                    color: $blue-d2;
-                }
-            }
-        }
-
-     
-}
 }
 
 .info-card{
@@ -68,19 +65,13 @@
     border: 2px solid $blue;
     
     background-color: white;
-    z-index: 2;
-
-
-    height: 30rem;
+    
     width:40rem;
    border-radius: 5px;
 
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 
-   &:hover{
-       box-shadow: $shadow-p5;
-   }
    &__image{
 
     position: relative;
@@ -95,7 +86,10 @@
         
     }
 
-
+    &__links{
+        padding-top: 10px;
+         font-weight: 600;
+    }
     .name{
         color: $blue;
         font-size: 2.5rem;
@@ -103,21 +97,20 @@
     }
 
     .title{
+        display: block;
         color: $red;
-        font-size: 1.25rem;
-        padding-left: 2vw;
+        font-size: 1.55rem;
     }
 
     .email{
         color: $blue-d2;
-        margin-top: 10px;
         text-decoration: none;
         display: block;
 
     }
     .number{
         color: $blue-d2;
-        letter-spacing: .075rem;
+        letter-spacing: .05rem;
         text-decoration: none;
         display: block;
 
@@ -130,8 +123,8 @@
 }
 
 .tags{
-    padding: 20px;
 }
+
 .tag{
     margin:5px;
     color: $blue-text-dark;

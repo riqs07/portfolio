@@ -4,7 +4,7 @@
    
     &-resume{
         
-        color:$purple;
+        color:$blue;
         
         font-size: 3.5rem;
         &:hover{
@@ -29,5 +29,6 @@
     &-info-card{
         margin-right: 15px;
         padding: 5px 0px;
+        font-size: 1.5rem;
     }
 }
