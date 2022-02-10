@@ -11,6 +11,6 @@
   "license": "ISC",
   "dependencies": {
     "animejs": "^3.0.1",
-    "node-sass": "^4.11.0"
+    "node-sass": "^7.0.0"
   }
 }
